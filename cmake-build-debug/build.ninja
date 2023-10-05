@@ -49,18 +49,6 @@ cmake_ninja_workdir = C$:/Users/bisha/CLionProjects/Practice01/cmake-build-debug
 
 build cmake_object_order_depends_target_Practice01: phony || CMakeFiles/Practice01.dir
 
-build CMakeFiles/Practice01.dir/main.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/main.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\main.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
-build CMakeFiles/Practice01.dir/Sum.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/Sum.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\Sum.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
 build CMakeFiles/Practice01.dir/Substraction.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/Substraction.c || cmake_object_order_depends_target_Practice01
   DEP_FILE = CMakeFiles\Practice01.dir\Substraction.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
@@ -75,7 +63,7 @@ build CMakeFiles/Practice01.dir/Substraction.c.obj: C_COMPILER__Practice01_unsca
 #############################################
 # Link the executable Practice01.exe
 
-build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/main.c.obj CMakeFiles/Practice01.dir/Sum.c.obj CMakeFiles/Practice01.dir/Substraction.c.obj
+build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/Substraction.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practice01.dir
