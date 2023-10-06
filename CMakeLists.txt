@@ -6,5 +6,10 @@ set(CMAKE_C_STANDARD 23)
 add_executable(Practice01
 #        main.c
 #        Sum.c
-        Substraction.c
+#        Substraction.c
+#        Amicable.c
+ #       "Liberty Function .c"
+ #       1..c
+  #      2.c
+        3.c
 )
