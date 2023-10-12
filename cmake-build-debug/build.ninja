@@ -55,12 +55,6 @@ build CMakeFiles/Practice01.dir/Pattern.c.obj: C_COMPILER__Practice01_unscanned_
   OBJECT_DIR = CMakeFiles\Practice01.dir
   OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
 
-build CMakeFiles/Practice01.dir/Factorial.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/Factorial.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\Factorial.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Practice01
@@ -69,7 +63,7 @@ build CMakeFiles/Practice01.dir/Factorial.c.obj: C_COMPILER__Practice01_unscanne
 #############################################
 # Link the executable Practice01.exe
 
-build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/Pattern.c.obj CMakeFiles/Practice01.dir/Factorial.c.obj
+build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/Pattern.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practice01.dir

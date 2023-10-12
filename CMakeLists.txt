@@ -18,6 +18,7 @@ add_executable(Practice01
       #  7.c
        # 8..c
        # cmake-build-debug/Factorial.c
-        cmake-build-debug/Pattern.c
-        Factorial.c
+        #cmake-build-debug/Pattern.c
+        #Factorial.c
+        Pattern.c
 )
