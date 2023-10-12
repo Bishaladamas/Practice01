@@ -49,32 +49,14 @@ cmake_ninja_workdir = C$:/Users/bisha/CLionProjects/Practice01/cmake-build-debug
 
 build cmake_object_order_depends_target_Practice01: phony || CMakeFiles/Practice01.dir
 
-build CMakeFiles/Practice01.dir/4.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/4.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\4.c.obj.d
+build CMakeFiles/Practice01.dir/Pattern.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/cmake-build-debug/Pattern.c || cmake_object_order_depends_target_Practice01
+  DEP_FILE = CMakeFiles\Practice01.dir\Pattern.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practice01.dir
   OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
 
-build CMakeFiles/Practice01.dir/5.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/5.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\5.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
-build CMakeFiles/Practice01.dir/6.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/6.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\6.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
-build CMakeFiles/Practice01.dir/7.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/7.c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\7.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Practice01.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
-
-build CMakeFiles/Practice01.dir/8..c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/8..c || cmake_object_order_depends_target_Practice01
-  DEP_FILE = CMakeFiles\Practice01.dir\8..c.obj.d
+build CMakeFiles/Practice01.dir/Factorial.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/Factorial.c || cmake_object_order_depends_target_Practice01
+  DEP_FILE = CMakeFiles\Practice01.dir\Factorial.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practice01.dir
   OBJECT_FILE_DIR = CMakeFiles\Practice01.dir
@@ -87,7 +69,7 @@ build CMakeFiles/Practice01.dir/8..c.obj: C_COMPILER__Practice01_unscanned_Debug
 #############################################
 # Link the executable Practice01.exe
 
-build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/4.c.obj CMakeFiles/Practice01.dir/5.c.obj CMakeFiles/Practice01.dir/6.c.obj CMakeFiles/Practice01.dir/7.c.obj CMakeFiles/Practice01.dir/8..c.obj
+build Practice01.exe: C_EXECUTABLE_LINKER__Practice01_Debug CMakeFiles/Practice01.dir/Pattern.c.obj CMakeFiles/Practice01.dir/Factorial.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practice01.dir

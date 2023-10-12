@@ -12,9 +12,12 @@ add_executable(Practice01
  #       1..c
   #      2.c
  #       3.c
-        4.c
-        5.c
-        6.c
-        7.c
-        8..c
+   #     4.c
+    #    5.c
+     #   6.c
+      #  7.c
+       # 8..c
+       # cmake-build-debug/Factorial.c
+        cmake-build-debug/Pattern.c
+        Factorial.c
 )
