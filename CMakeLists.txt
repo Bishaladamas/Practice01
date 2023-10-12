@@ -4,7 +4,9 @@ project(Practice01 C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Practice01
-        Pattern.c
+        #Pattern.c
+        #"Sum of odd.c"
+        "Impliment call by value .c"
         #        main.c
 #        Sum.c
 #        Substraction.c
@@ -21,5 +23,7 @@ add_executable(Practice01
        # cmake-build-debug/Factorial.c
         #cmake-build-debug/Pattern.c
         #Factorial.c
+       # Substraction.c
+      #  Substraction.c
 
 )
