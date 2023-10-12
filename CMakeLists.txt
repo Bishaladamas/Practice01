@@ -4,7 +4,8 @@ project(Practice01 C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Practice01
-#        main.c
+        Pattern.c
+        #        main.c
 #        Sum.c
 #        Substraction.c
 #        Amicable.c
@@ -16,9 +17,9 @@ add_executable(Practice01
     #    5.c
      #   6.c
       #  7.c
-       # 8..c
+       # 8
        # cmake-build-debug/Factorial.c
         #cmake-build-debug/Pattern.c
         #Factorial.c
-        Pattern.c
+
 )

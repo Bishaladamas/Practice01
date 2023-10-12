@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/bisha/CLionProjects/Practice01/cmake-build-debug
 
 build cmake_object_order_depends_target_Practice01: phony || CMakeFiles/Practice01.dir
 
-build CMakeFiles/Practice01.dir/Pattern.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/cmake-build-debug/Pattern.c || cmake_object_order_depends_target_Practice01
+build CMakeFiles/Practice01.dir/Pattern.c.obj: C_COMPILER__Practice01_unscanned_Debug C$:/Users/bisha/CLionProjects/Practice01/Pattern.c || cmake_object_order_depends_target_Practice01
   DEP_FILE = CMakeFiles\Practice01.dir\Pattern.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practice01.dir
