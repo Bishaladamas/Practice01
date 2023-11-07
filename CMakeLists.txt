@@ -27,6 +27,16 @@ add_executable(Practice01
         27.c
         28.c
         29.c
+        "30(i).c"
+        "30(ii).c"
+        31.c
+        32.c
+        33.c
+        34.c
+        35.c
+        36.c
+        37.c
+        38.c
         #  9.c
        # 10.c
        # 11.c
