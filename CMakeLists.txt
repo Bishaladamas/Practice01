@@ -11,6 +11,7 @@ add_executable(Practice01
 
        # 59.c
         60.c
+        61.c
         #  9.c
        # 10.c
        # 11.c
