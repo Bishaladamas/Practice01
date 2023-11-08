@@ -9,7 +9,8 @@ add_executable(Practice01
        # "Impliment call by value .c"
 
 
-        59.c
+       # 59.c
+        60.c
         #  9.c
        # 10.c
        # 11.c
